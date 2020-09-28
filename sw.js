@@ -8,7 +8,6 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 //Corazon de la aplicacion, debe ser cargado lo mas rapido
 //posible
 const APP_SHELL = [
-    '/PWA/06-twittor/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
