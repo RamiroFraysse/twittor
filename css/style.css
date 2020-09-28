@@ -11,6 +11,15 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /* propiedad en android para que no aparezca el refresh */
+    overscroll-behavior-y: contain;
+
+    /* para ios */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+
+
 }
 
 /* Personalizados */
