@@ -1,6 +1,14 @@
+//obtiene toda la utl
+var url = window.location.href;
+var swLocation = '/twittor/sw.js';
+
 if(navigator.serviceWorker){
     //mando a instalar el sw que se encuentra en la raiz
-    navigator.serviceWorker.register('sw.js');
+    if(url.includes('localhost'))
+        swLocation = 'sw.js';
+    else
+        swLocation = 'sw.js';
+    navigator.serviceWorker.register(swLocation);
     
 }
 
